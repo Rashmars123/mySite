@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" href="{{url_for('static', filename='resources/css/style.css')}}">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
         <title>WolfSteals</title>
-        <link rel="stylesheet" href="{{url_for('static', filename='/main.css')}}">
+
     </head>
     <header>
-        <div class="container">
-            <h1 class="logo">Rasheed's Sneaker Store</h1>
+        <div class="jordanbred-textBox">
+            <h1>Rasheed's Sneaker Store</h1>
             <strong><nav>
             <ul class="menu">
                 <li><a href="{{ url_for('home') }}">Home</a></li>
