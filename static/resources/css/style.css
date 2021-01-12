@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+} /* The default thing to do before starting any css for websites */
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility; /* Helps the font to be read better */
+}
+
+.row{
+    max-width:1140px;
+    margin: 0;
+}
+
+
+
+header {
+    background-image: url(img/jordanbred4.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh /* In order for the picture to cover the whole screen*/
+}
+
+h1 {
+    margin: 0; /* Had to put margin to 0 in order for the picture to cover the whole screen due to the normalize.css  */
+}
