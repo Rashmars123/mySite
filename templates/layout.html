@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -9,19 +9,29 @@
         <title>WolfSteals</title>
 
     </head>
-    <header>
-        <div class="jordanbred-textBox">
-            <h1>Rasheed's Sneaker Store</h1>
+   <body>
+        <header>
             <strong><nav>
-            <ul class="menu">
-                <li><a href="{{ url_for('home') }}">Home</a></li>
-                <li><a href="{{ url_for('about') }}">About</a></li>
-            </ul>
+                <div class="row">
+                    <img src="/static/resources/img/wolflogo" alt="WolfSteals Logo" class="logo">
+                    <ul class="main-nav">
+                        <li><a href="{{ url_for('home') }}">Home</a></li>
+                        <li><a href="{{ url_for('about') }}">About</a></li>
+                        <li><a href="{{ url_for('gallery') }}">Gallery</a></li>
+                    </ul>
+                </div>
             </nav></strong>
-        </div>
-    </header>
+            <div class="jordan-bred-text-box">
+                <h1>Where reselling meets passion<br>The Journey of Rasheed Martin</h1>
+                <a class="btn btn-full">Buy a Sneaker</a>
+                <a class="btn btn-ghost">Learn More</a>
+            </div>
+        </header>
         <div class="container">
             {%block content%}
             {%endblock%}
         </div>
+
+   </body>
+
 </html>
