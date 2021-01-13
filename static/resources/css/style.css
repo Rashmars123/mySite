@@ -9,7 +9,7 @@
 } /* The default thing to do before starting any css for websites */
 
 html{
-    background-color: #ffffff;
+    background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
@@ -70,17 +70,18 @@ h1 {
 .main-nav li {
     display: inline-block;
     margin-left: 40px;
+    color: #fff;
 
 }
 
 .main-nav li a:link,
 .main-nav li a:visited {
     padding: 8px 0;
-    color: #fff;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
-    border-bottom: 2px solid #db0909;
+    border-bottom: 2px solid red;
     transition: border-bottom 0.2s;
 }
 
@@ -92,20 +93,18 @@ h1 {
 /*-----------------------------------------------------------------*/
 /*Buttons*/
 /*-----------------------------------------------------------------*/
-.btn:link,
-.btn:visited {
+.btn:link, .btn:visited {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
-    border-radius: 200px; /*This is how you make curved buttons*/
+    border-radius: 400px; /*This is how you make curved buttons*/
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 
 
-.btn-full:link,
-.btn-full:visited {
+.btn-full:link, .btn-full:visited {
     background-color: #db0909;
     border: 1px;
     color: #fff;
@@ -118,20 +117,17 @@ h1 {
     color: #db0909;
 }
 
-.btn:hover,
-.btn:active {
+.btn:hover, .btn:active {
     background-color: #780303;
 } /*Use 0to255 in order to get a darker shade of the color that you want*/
 
-.btn-full:hover,
-.btn-full:active{
+.btn-full:hover, .btn-full:active{
     border: 1px solid #780303;
 
 
 }
 
-.btn-ghost:hover,
-.btn-ghost:active{
+.btn-ghost:hover, .btn-ghost:active{
     border: 1px solid #db0909;
     color: #fff;
 }
