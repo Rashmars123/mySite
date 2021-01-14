@@ -40,7 +40,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/jordanbred4.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh /* In order for the picture to cover the whole screen*/
+    height: 100vh; /* In order for the picture to cover the whole screen*/
 } /*This puts a black filter over your picture for a cleaner look*/
 
 .jordan-bred-text-box {
@@ -48,7 +48,7 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) /*This is how you center the box on an image*/
+    transform: translate(-50%, -50%); /*This is how you center the box on an image*/
 }
 
 h1, h2, h3{
@@ -81,7 +81,8 @@ h2:after {
     content: " ";
     width: 100px;
     /*This is how you center it*/
-    margin: 30px auto 0px;
+    margin: 0 auto;
+    margin-top: 30px;
 
 }
 h3 {
@@ -89,7 +90,7 @@ h3 {
     margin-bottom: 15px;
 }
 .long-copy {
-    line-height: 145;
+    line-height: 145%;
     width: 70%;
     margin-left: 15%;
 
