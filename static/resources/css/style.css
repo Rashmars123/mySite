@@ -75,14 +75,13 @@ h2 {
     letter-spacing: 1px;
 }
 h2:after {
-    display:block;
+    display: block;
     height: 2px;
     background-color: red;
     content: " ";
     width: 100px;
     /*This is how you center it*/
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 30px auto 0;
 
 }
 h3 {
@@ -100,7 +99,6 @@ h3 {
     font-size: 90%;
     line-height: 145%;
 }
-
 
 .logo {
     height: 100px;
